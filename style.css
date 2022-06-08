@@ -1,0 +1,38 @@
+body{
+    padding:0px;
+    margin:0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image:linear-gradient(to right , #9900FF , #AEBAF8);
+}
+
+.timeDiv{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+.buttons{
+    text-align: center;
+}
+button{
+    width:160px;
+    height:80px;
+    border:none;
+    border-radius: 4px;
+    margin-left:15px;
+    color:black;
+    font-size: 2rem;
+    background-color:  #42FBF2;
+
+}
+button:hover{
+    cursor:pointer;
+    background-color: bisque;
+}
+
+
+.text{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
